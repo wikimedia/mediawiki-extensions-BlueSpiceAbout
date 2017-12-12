@@ -1,0 +1,42 @@
+{
+	"name": "BlueSpiceAbout",
+	"license-name": "GPL-3.0",
+	"version": "3.0.0-alpha",
+	"url": "https://help.bluespice.com/index.php/AboutBlueSpice",
+	"author": "Markus Glaser",
+	"descriptionmsg": "bs-bluespiceabout-desc",
+	"type": "bluespice",
+	"SpecialPages": {
+		"BlueSpiceAbout": "SpecialBlueSpiceAbout"
+	},
+	"MessagesDirs": {
+		"BlueSpiceAbout": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
+	},
+	"AutoloadClasses": {
+		"BlueSpiceAbout": "BlueSpiceAbout.class.php",
+		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.class.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.bluespiceabout": {
+			"styles": "bluespice.bluespiceabout.css",
+			"position": "top"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceAbout/resources"
+	},
+	"bsgExtensions": {
+		"BlueSpiceAbout": {
+			"className": "BlueSpiceAbout",
+			"extPath": "/BlueSpiceAbout"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

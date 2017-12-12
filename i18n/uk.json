@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-bluespiceabout-desc": "Інформація про BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Про BlueSpice",
+	"bluespiceabout": "Про BlueSpice",
+	"prefs-bluespiceabout": "Про BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Показати посилання «{{int:bs-bluespiceabout-about-bluespice}}» вгорі та в головному меню",
+	"action-bluespiceabout-viewspecialpage": "перегляд спеціальної сторінки «{{int:bs-bluespiceabout-about-bluespice}}»"
+}

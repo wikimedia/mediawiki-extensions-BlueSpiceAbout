@@ -1,0 +1,6 @@
+
+#bs-nav-sections #n-bluespiceabout .icon24::before,
+#bs-admin-bluespiceabout::before {
+	font-family: 'bluespice-logo' !important;
+	content: "\e900";
+}
