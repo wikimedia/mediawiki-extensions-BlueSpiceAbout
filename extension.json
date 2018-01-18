@@ -17,6 +17,12 @@
 	"ExtensionMessagesFiles": {
 		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
 	},
+	"BlueSpiceFoundationAdminToolRegistry": {
+		"bs-bluespiceabout": "BlueSpice\\BlueSpiceAbout\\AdminTool"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\BlueSpiceAbout\\" : "src/"
+	},
 	"AutoloadClasses": {
 		"BlueSpiceAbout": "BlueSpiceAbout.class.php",
 		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.class.php"

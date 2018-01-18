@@ -35,7 +35,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		wfProfileIn( 'BS::'.__METHOD__ );
 		// Hooks
 		$this->setHook( 'BeforePageDisplay' );
-		$this->setHook( 'BSWikiAdminMenuItems' );
 		$this->setHook( 'BSTopMenuBarCustomizerRegisterNavigationSites' );
 		$this->setHook( 'SkinBuildSidebar' );
 
@@ -56,34 +55,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		if ( BsConfig::get( 'MW::BlueSpiceAbout::ShowMenuLinks' )) {
 			$out->addModules( 'ext.bluespice.bluespiceabout' );
 		}
-		return true;
-	}
-
-	/**
-	 * Returns a list item with a link to the "BlueSpice About" special page
-	 * @param array $aOutSortable Indexed list of menu items. Add item in HTML form.
-	 * @param \User The user in which context the menu is rendered
-	 * @return string Link to the "BlueSpice About" special page
-	 */
-	public static function onBSWikiAdminMenuItems( &$aOutSortable, $oUser ) {
-		if ( !BsConfig::get( 'MW::BlueSpiceAbout::ShowMenuLinks' )) {
-			return true;
-		}
-		if( !$oUser->isAllowed( 'bluespiceabout-viewspecialpage' ) ) {
-			return true;
-		}
-		$oSpecialPage = SpecialPage::getTitleFor( 'BlueSpiceAbout' );
-		$sLink = Html::element(
-				'a',
-				array (
-					'id' => 'bs-admin-bluespiceabout',
-					'href' => $oSpecialPage->getLocalURL(),
-					'title' => wfMessage( 'bs-bluespiceabout-about-bluespice' )->plain(),
-					'class' => 'bs-admin-link'
-				),
-				wfMessage( 'bs-bluespiceabout-about-bluespice' )->plain()
-		);
-		$aOutSortable[wfMessage( 'bs-bluespiceabout-about-bluespice' )->escaped()] = '<li>' . $sLink . '</li>';
 		return true;
 	}
 
