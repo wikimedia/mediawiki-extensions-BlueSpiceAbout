@@ -18,10 +18,10 @@
 		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
 	},
 	"BlueSpiceFoundationAdminToolRegistry": {
-		"bs-bluespiceabout": "BlueSpice\\BlueSpiceAbout\\AdminTool"
+		"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\BlueSpiceAbout\\" : "src/"
+		"BlueSpice\\About\\" : "src/"
 	},
 	"AutoloadClasses": {
 		"BlueSpiceAbout": "BlueSpiceAbout.class.php",

@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueSpice\BlueSpiceAbout;
+namespace BlueSpice\About;
 
 use BlueSpice\IAdminTool;
 
@@ -20,12 +20,11 @@ class AdminTool implements IAdminTool {
 	}
 
 	public function getClasses() {
-		$classes = array();
-
-		return $classes;
+		return [];
 	}
 
 	public function getDataAttributes() {
+		return [];
 	}
 
 	public function getPermissions() {
