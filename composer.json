@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-about",
 	"type": "mediawiki-extension",
 	"description": "Information about BlueSpice",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
