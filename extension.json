@@ -35,8 +35,7 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.bluespiceabout": {
-			"styles": "bluespice.bluespiceabout.css",
-			"position": "top"
+			"styles": "bluespice.bluespiceabout.css"
 		}
 	},
 	"ResourceFileModulePaths": {
