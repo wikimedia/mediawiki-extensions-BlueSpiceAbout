@@ -32,7 +32,6 @@
 class BlueSpiceAbout extends BsExtensionMW {
 
 	protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		// Hooks
 		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'BSTopMenuBarCustomizerRegisterNavigationSites' );
@@ -41,8 +40,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		BsConfig::registerVar( 'MW::BlueSpiceAbout::ShowMenuLinks', true, BsConfig::LEVEL_PUBLIC | BsConfig::TYPE_BOOL, 'bs-bluespiceabout-show-menu-links', 'toggle' );
 
 		$this->mCore->registerPermission( 'bluespiceabout-viewspecialpage', array('user'), array( 'type' => 'global' ) );
-
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
