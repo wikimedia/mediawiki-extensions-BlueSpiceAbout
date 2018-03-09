@@ -6,6 +6,19 @@
 	"author": "Markus Glaser",
 	"descriptionmsg": "bs-bluespiceabout-desc",
 	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceAbout": {
+					"className": "BlueSpiceAbout",
+					"extPath": "/BlueSpiceAbout",
+					"configDefinitions": {
+						"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
+					}
+				}
+			}
+		}
+	},
 	"requires": {
 		"MediaWiki": ">= 1.31.0",
 		"extensions": {
@@ -33,6 +46,14 @@
 		"BlueSpiceAbout": "BlueSpiceAbout.class.php",
 		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.class.php"
 	},
+	"config_prefix": "bsg",
+	"config": {
+		"BlueSpiceAboutShowMenuLinks": {
+			"value": true,
+			"descriptionmsg": "bs-bluespiceabout-show-menu-links",
+			"public": true
+		}
+	},
 	"ResourceModules": {
 		"ext.bluespice.bluespiceabout": {
 			"styles": "bluespice.bluespiceabout.css"
@@ -42,12 +63,6 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceAbout/resources"
 	},
-	"bsgExtensions": {
-		"BlueSpiceAbout": {
-			"className": "BlueSpiceAbout",
-			"extPath": "/BlueSpiceAbout"
-		}
-	},
 	"load_composer_autoloader": true,
-	"manifest_version": 1
+	"manifest_version": 2
 }

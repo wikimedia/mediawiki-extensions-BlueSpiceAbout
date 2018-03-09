@@ -37,8 +37,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		$this->setHook( 'BSTopMenuBarCustomizerRegisterNavigationSites' );
 		$this->setHook( 'SkinBuildSidebar' );
 
-		BsConfig::registerVar( 'MW::BlueSpiceAbout::ShowMenuLinks', true, BsConfig::LEVEL_PUBLIC | BsConfig::TYPE_BOOL, 'bs-bluespiceabout-show-menu-links', 'toggle' );
-
 		$this->mCore->registerPermission( 'bluespiceabout-viewspecialpage', array('user'), array( 'type' => 'global' ) );
 	}
 
@@ -48,8 +46,11 @@ class BlueSpiceAbout extends BsExtensionMW {
 	 * @param Skin $skin
 	 * @return boolean
 	 */
-	public static function onBeforePageDisplay( &$out, &$skin ) {
-		if ( BsConfig::get( 'MW::BlueSpiceAbout::ShowMenuLinks' )) {
+	public function onBeforePageDisplay( &$out, &$skin ) {
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
+
+		if ( $config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
 			$out->addModules( 'ext.bluespice.bluespiceabout' );
 		}
 		return true;
@@ -61,7 +62,9 @@ class BlueSpiceAbout extends BsExtensionMW {
 	 * @return boolean - always true
 	 */
 	public function onBSTopMenuBarCustomizerRegisterNavigationSites( &$aNavigationSites ) {
-		if ( !BsConfig::get( 'MW::BlueSpiceAbout::ShowMenuLinks' )) {
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
+		if ( !$config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
 			return true;
 		}
 
@@ -84,7 +87,9 @@ class BlueSpiceAbout extends BsExtensionMW {
 	 * @return boolean - always true
 	 */
 	public function onSkinBuildSidebar( $oSkinTemplate, &$aLinks ) {
-		if ( !BsConfig::get( 'MW::BlueSpiceAbout::ShowMenuLinks' )) {
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
+		if ( !$config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
 			return true;
 		}
 		$oSpecialPage = SpecialPage::getTitleFor( 'BlueSpiceAbout' );
