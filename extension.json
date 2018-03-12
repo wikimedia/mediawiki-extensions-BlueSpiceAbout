@@ -16,6 +16,14 @@
 						"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
 					}
 				}
+			},
+			"PermissionRegistry": {
+				"bluespiceabout-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"user"
+					]
+				}
 			}
 		}
 	},
@@ -45,6 +53,17 @@
 	"AutoloadClasses": {
 		"BlueSpiceAbout": "BlueSpiceAbout.class.php",
 		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.class.php"
+	},
+	"GroupPermissions": {
+		"*": {
+			"bluespiceabout-viewspecialpage": false
+		},
+		"user": {
+			"bluespiceabout-viewspecialpage": true
+		},
+		"sysop": {
+			"bluespiceabout-viewspecialpage": true
+		}
 	},
 	"config_prefix": "bsg",
 	"config": {

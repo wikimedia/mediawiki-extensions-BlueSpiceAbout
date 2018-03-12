@@ -36,8 +36,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'BSTopMenuBarCustomizerRegisterNavigationSites' );
 		$this->setHook( 'SkinBuildSidebar' );
-
-		$this->mCore->registerPermission( 'bluespiceabout-viewspecialpage', array('user'), array( 'type' => 'global' ) );
 	}
 
 	/**
