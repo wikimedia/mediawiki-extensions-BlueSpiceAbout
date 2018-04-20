@@ -65,6 +65,9 @@
 			"bluespiceabout-viewspecialpage": true
 		}
 	},
+	"AvailableRights": [
+		"bluespiceabout-viewspecialpage"
+	],
 	"config_prefix": "bsg",
 	"config": {
 		"BlueSpiceAboutShowMenuLinks": {
