@@ -34,7 +34,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 	protected function initExt() {
 		// Hooks
 		$this->setHook( 'BeforePageDisplay' );
-		$this->setHook( 'BSTopMenuBarCustomizerRegisterNavigationSites' );
 		$this->setHook( 'SkinBuildSidebar' );
 	}
 
@@ -51,30 +50,6 @@ class BlueSpiceAbout extends BsExtensionMW {
 		if ( $config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
 			$out->addModules( 'ext.bluespice.bluespiceabout' );
 		}
-		return true;
-	}
-
-	/**
-	 * Adds entry to navigation sites
-	 * @param array $aNavigationSites
-	 * @return boolean - always true
-	 */
-	public function onBSTopMenuBarCustomizerRegisterNavigationSites( &$aNavigationSites ) {
-		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
-			->makeConfig( 'bsg' );
-		if ( !$config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
-			return true;
-		}
-
-		$oSpecialPage = SpecialPage::getTitleFor( 'BlueSpiceAbout' );
-
-		$aNavigationSites[] = array(
-			'id' => 'nt-bluespiceabout',
-			'href' => $oSpecialPage->getLocalURL(),
-			'active' => false,
-			'level' => 1,
-			'text' => wfMessage( 'bs-bluespiceabout-about-bluespice' )->plain()
-		);
 		return true;
 	}
 
