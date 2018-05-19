@@ -17,6 +17,9 @@
 					}
 				}
 			},
+			"AdminToolRegistry": {
+				"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
+			},
 			"PermissionRegistry": {
 				"bluespiceabout-viewspecialpage": {
 					"type": "global",
@@ -43,9 +46,6 @@
 	},
 	"ExtensionMessagesFiles": {
 		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
-	},
-	"BlueSpiceFoundationAdminToolRegistry": {
-		"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\About\\" : "src/"
