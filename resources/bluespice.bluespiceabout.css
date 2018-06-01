@@ -1,6 +1,6 @@
-
-#bs-nav-sections #n-bluespiceabout .icon24::before,
-#bs-admin-bluespiceabout::before {
+.icon-admin-bluespiceabout::before {
+	content: '\e900';
 	font-family: 'bluespice-logo' !important;
-	content: "\e900";
+	padding-right: 5px;
+	font-style: normal;
 }

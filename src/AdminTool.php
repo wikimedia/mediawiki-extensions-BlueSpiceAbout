@@ -20,7 +20,7 @@ class AdminTool implements IAdminTool {
 	}
 
 	public function getClasses() {
-		return [];
+		return [ 'icon-admin-bluespiceabout' ];
 	}
 
 	public function getDataAttributes() {
