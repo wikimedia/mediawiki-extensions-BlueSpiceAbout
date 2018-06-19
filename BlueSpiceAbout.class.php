@@ -48,7 +48,7 @@ class BlueSpiceAbout extends BsExtensionMW {
 			->makeConfig( 'bsg' );
 
 		if ( $config->get( 'BlueSpiceAboutShowMenuLinks' ) ) {
-			$out->addModules( 'ext.bluespice.bluespiceabout' );
+			$out->addModuleStyles( 'ext.bluespice.bluespiceabout' );
 		}
 		return true;
 	}
