@@ -3,14 +3,18 @@
 	"license-name": "GPL-3.0-only",
 	"version": "3.0.0-alpha",
 	"url": "https://help.bluespice.com/index.php/AboutBlueSpice",
-	"author": "Markus Glaser",
+	"author": [
+		"Markus Glaser",
+		"Peter Böhm",
+		"Leonid Verhovskij"
+	],
 	"descriptionmsg": "bs-bluespiceabout-desc",
 	"type": "bluespice",
 	"attributes": {
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceAbout": {
-					"className": "BlueSpiceAbout",
+					"className": "\\BlueSpice\\About\\Extension",
 					"extPath": "/BlueSpiceAbout",
 					"configDefinitions": {
 						"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
@@ -48,7 +52,7 @@
 		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\About\\" : "src/"
+		"BlueSpice\\About\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BlueSpiceAbout": "BlueSpiceAbout.class.php",
@@ -85,6 +89,11 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceAbout/resources"
 	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\About\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"SkinBuildSidebar": "\\BlueSpice\\About\\Hook\\SkinBuildSidebar\\AddNavLink::callback"
+	},
+
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
