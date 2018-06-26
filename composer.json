@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-about",
+	"name": "bluespice/about",
 	"type": "mediawiki-extension",
 	"description": "Information about BlueSpice",
 	"license": "GPL-3.0-only",
@@ -23,5 +23,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceAbout"
 	}
 }
