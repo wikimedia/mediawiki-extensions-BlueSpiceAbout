@@ -28,6 +28,8 @@
 				"bluespiceabout-viewspecialpage": {
 					"type": "global",
 					"roles": [
+						"admin",
+						"editor",
 						"user"
 					]
 				}
