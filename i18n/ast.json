@@ -9,5 +9,6 @@
 	"bluespiceabout": "Tocante a BlueSpice",
 	"prefs-bluespiceabout": "Tocante a BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Amosar l'enllaz «{{int:bs-bluespiceabout-about-bluespice}}» nel menú cimeru y principal",
-	"action-bluespiceabout-viewspecialpage": "ver la páxina especial «{{int:bs-bluespiceabout-about-bluespice}}»"
+	"action-bluespiceabout-viewspecialpage": "ver la páxina especial «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "Permite l'accesu a la páxina especial [[Special:BlueSpiceAbout]]."
 }

@@ -9,5 +9,6 @@
 	"bluespiceabout": "Sus a BlueSpice",
 	"prefs-bluespiceabout": "Sus a BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Fà 'ndrucà 'u collegamende \"{{int:bs-bluespiceabout-about-bluespice}}\" sus a sus a 'u menù prengepàle",
-	"action-bluespiceabout-viewspecialpage": "fà 'ndrucà 'a pàgena speciale \"{{int:bs-bluespiceabout-about-bluespice}}\""
+	"action-bluespiceabout-viewspecialpage": "fà 'ndrucà 'a pàgena speciale \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Le deritte de accesse a 'a pàgena speciale [[Special:BlueSpiceAbout]]."
 }
