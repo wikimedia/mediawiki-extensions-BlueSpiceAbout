@@ -9,5 +9,6 @@
 	"bluespiceabout": "O BlueSpice",
 	"prefs-bluespiceabout": "O BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Wyświetlanie linku „{{int:bs-bluespiceabout-about-bluespice}}” na górze i w menu głównym",
-	"action-bluespiceabout-viewspecialpage": "zobacz stronę specjalną „{{int:bs-bluespiceabout-about-bluespice}}”"
+	"action-bluespiceabout-viewspecialpage": "zobacz stronę specjalną „{{int:bs-bluespiceabout-about-bluespice}}”",
+	"right-bluespiceabout-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:BlueSpiceObout]]."
 }
