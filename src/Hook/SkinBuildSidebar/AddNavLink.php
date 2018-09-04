@@ -18,7 +18,7 @@ class AddNavLink extends SkinBuildSidebar {
 			'id' => 'n-bluespiceabout',
 			'href' => $specialPage->getLocalURL(),
 			'text' => wfMessage( 'bs-bluespiceabout-about-bluespice' )->plain(),
-			'classes' => ' icon-admin-bluespiceabout '
+			'iconClass' => ' icon-admin-bluespiceabout '
 		);
 
 		return true;
