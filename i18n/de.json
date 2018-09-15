@@ -9,7 +9,7 @@
 	"bs-bluespiceabout-about-bluespice": "Über BlueSpice",
 	"bluespiceabout": "Über BlueSpice",
 	"prefs-bluespiceabout": "Über BlueSpice",
-	"bs-bluespiceabout-show-menu-links": "Link \"{{int:bs-bluespiceabout-about-bluespice}}\" im Top- und Hauptmenü anzeigen",
+	"bs-bluespiceabout-show-menu-links": "Den Link „{{int:bs-bluespiceabout-about-bluespice}}“ im Hauptmenü anzeigen",
 	"action-bluespiceabout-viewspecialpage": "die Spezialseite „{{int:bs-bluespiceabout-about-bluespice}}“ anzusehen",
 	"right-bluespiceabout-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceAbout]] gewähren."
 }
