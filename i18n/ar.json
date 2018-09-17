@@ -8,7 +8,7 @@
 	"bs-bluespiceabout-about-bluespice": "حول BlueSpice",
 	"bluespiceabout": "حول BlueSpice",
 	"prefs-bluespiceabout": "حول BlueSpice",
-	"bs-bluespiceabout-show-menu-links": "أظهر الرابط \"{{int:bs-bluespiceabout-about-bluespice}}\" في القائمة العلوية والرئيسية",
+	"bs-bluespiceabout-show-menu-links": "أظهر الرابط \"{{int:bs-bluespiceabout-about-bluespice}}\" في القائمة الرئيسية",
 	"action-bluespiceabout-viewspecialpage": "اعرض الصفحة الخاصة \"{{int:bs-bluespiceabout-about-bluespice}}\"",
 	"right-bluespiceabout-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:BlueSpiceAbout]]."
 }
