@@ -8,17 +8,17 @@
 
  * @package    BlueSpiceAbout
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'BlueSpiceAbout' => array( 'BlueSpiceAbout', 'About BlueSpice', 'AboutBlueSpice' ),
-);
+$specialPageAliases['en'] = [
+	'BlueSpiceAbout' => [ 'BlueSpiceAbout', 'About BlueSpice', 'AboutBlueSpice' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'BlueSpiceAbout' => array( 'Über BlueSpice' ),
-);
+$specialPageAliases['de'] = [
+	'BlueSpiceAbout' => [ 'Über BlueSpice' ],
+];

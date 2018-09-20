@@ -57,7 +57,7 @@
 		"BlueSpice\\About\\": "src/"
 	},
 	"AutoloadClasses": {
-		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.class.php"
+		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.php"
 	},
 	"GroupPermissions": {
 		"*": {

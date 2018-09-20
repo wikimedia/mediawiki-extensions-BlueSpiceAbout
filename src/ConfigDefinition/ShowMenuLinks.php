@@ -4,6 +4,10 @@ namespace BlueSpice\About\ConfigDefinition;
 
 class ShowMenuLinks extends \BlueSpice\ConfigDefinition\BooleanSetting {
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_SEARCH . '/BlueSpiceAbout',
@@ -12,6 +16,10 @@ class ShowMenuLinks extends \BlueSpice\ConfigDefinition\BooleanSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-bluespiceabout-show-menu-links';
 	}
