@@ -11,15 +11,14 @@ class AddNavLink extends SkinBuildSidebar {
 	}
 
 	protected function doProcess() {
-
 		$specialPage = \SpecialPage::getTitleFor( 'BlueSpiceAbout' );
 
-		$this->bar["navigation"][] = array (
+		$this->bar["navigation"][] = [
 			'id' => 'n-bluespiceabout',
 			'href' => $specialPage->getLocalURL(),
 			'text' => wfMessage( 'bs-bluespiceabout-about-bluespice' )->plain(),
 			'iconClass' => ' icon-admin-bluespiceabout '
-		);
+		];
 
 		return true;
 	}

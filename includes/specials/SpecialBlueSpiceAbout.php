@@ -9,7 +9,7 @@
 
  * @package    BlueSpiceAbout
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v3
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
 
@@ -39,7 +39,8 @@ class SpecialBlueSpiceAbout extends BsSpecialPage {
 				$sUrl = "https://bluespice.com/about-bluespice/";
 		};
 
-		$sOutHTML = '<iframe src="' . $sUrl . '" id="bluespiceaboutremote" name="bluespiceaboutremote" style="width:100%;border:0px;min-height:1200px;"></iframe>';
+		$sOutHTML = '<iframe src="' . $sUrl . '" id="bluespiceaboutremote" '
+			. 'name="bluespiceaboutremote" style="width:100%;border:0px;min-height:1200px;"></iframe>';
 
 		$oOutputPage = $this->getOutput();
 
@@ -48,6 +49,10 @@ class SpecialBlueSpiceAbout extends BsSpecialPage {
 		return true;
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function getGroupName() {
 		return 'bluespice';
 	}
