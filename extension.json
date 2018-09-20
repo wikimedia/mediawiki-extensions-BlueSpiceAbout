@@ -28,9 +28,17 @@
 				"bluespiceabout-viewspecialpage": {
 					"type": "global",
 					"roles": [
+						"accountmanager",
+						"accountselfcreate",
 						"admin",
+						"author",
+						"bot",
+						"commenter",
 						"editor",
-						"user"
+						"maintenanceadmin",
+						"reader",
+						"reviewer",
+						"structuremanager"
 					]
 				}
 			}
