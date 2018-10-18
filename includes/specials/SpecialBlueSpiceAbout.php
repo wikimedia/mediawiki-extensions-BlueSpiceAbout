@@ -13,7 +13,7 @@
  * @filesource
  */
 
-class SpecialBlueSpiceAbout extends BsSpecialPage {
+class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 
 	/**
 	 * Constructor of SpecialBlueSpiceAbout class
@@ -47,14 +47,6 @@ class SpecialBlueSpiceAbout extends BsSpecialPage {
 		$oOutputPage->addHTML( $sOutHTML );
 
 		return true;
-	}
-
-	/**
-	 *
-	 * @return string
-	 */
-	protected function getGroupName() {
-		return 'bluespice';
 	}
 
 }
