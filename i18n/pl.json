@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
-	"bs-bluespiceabout-desc": "Informacje o BlueSpice.",
+	"bs-bluespiceabout-desc": "Informacje o BlueSpice",
 	"bs-bluespiceabout-about-bluespice": "O BlueSpice",
 	"bluespiceabout": "O BlueSpice",
 	"prefs-bluespiceabout": "O BlueSpice",
