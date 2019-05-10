@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
-	"bs-bluespiceabout-show-menu-links": "Прикажи везу „{{int:bs-bluespiceabout-about-bluespice}}” у главном менију"
+	"bs-bluespiceabout-show-menu-links": "Прикажи везу „{{int:bs-bluespiceabout-about-bluespice}}” у главном менију",
+	"action-bluespiceabout-viewspecialpage": "Погледај специјалну страницу \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Додељује приступ специјалној страници [[Special:BlueSpiceAbout]]."
 }
