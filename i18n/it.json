@@ -10,5 +10,6 @@
 	"bluespiceabout": "Su BlueSpice",
 	"prefs-bluespiceabout": "Su BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Mostra collegamento \"{{int:bs-bluespiceabout-about-bluespice}}\" nel menu principale",
-	"action-bluespiceabout-viewspecialpage": "visualizzare la pagina speciale \"{{int:bs-bluespiceabout-about-bluespice}}\""
+	"action-bluespiceabout-viewspecialpage": "visualizzare la pagina speciale \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceAbout]]"
 }

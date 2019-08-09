@@ -11,5 +11,5 @@
 	"prefs-bluespiceabout": "Over BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Toon de koppeling \"{{int:bs-bluespiceabout-over-bluespice}}\" in het hoofdmenu",
 	"action-bluespiceabout-viewspecialpage": "bekijk de speciale pagina \"{{int:bs-bluespiceabout-about-bluespice}}\"",
-	"right-bluespiceabout-viewspecialpage": "Geeft toegang tot de speciale pagina [[Special:BlueSpiceAbout]]."
+	"right-bluespiceabout-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceAbout]]"
 }

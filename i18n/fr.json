@@ -11,5 +11,5 @@
 	"prefs-bluespiceabout": "À propos de BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Afficher le lien « {{int:bs-bluespiceabout-about-bluespice}} » dans le menu principal",
 	"action-bluespiceabout-viewspecialpage": "afficher la page spéciale \"{{int:bs-bluespiceabout-sur-bluespice}}\"",
-	"right-bluespiceabout-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:BlueSpiceAbout]]."
+	"right-bluespiceabout-viewspecialpage": "Acccès à la page spéciale [[Special:BlueSpiceAbout]]"
 }
