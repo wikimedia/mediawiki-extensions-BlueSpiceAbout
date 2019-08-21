@@ -3,6 +3,7 @@
 namespace BlueSpice\About;
 
 use BlueSpice\IAdminTool;
+use RequestContext;
 
 class AdminTool implements IAdminTool {
 
@@ -20,7 +21,7 @@ class AdminTool implements IAdminTool {
 	 * @return \Message
 	 */
 	public function getDescription() {
-		return wfMessage( 'bs-bluespiceabout-desc' );
+		return RequestContext::getMain()->msg( 'bs-bluespiceabout-desc' );
 	}
 
 	/**
@@ -28,7 +29,7 @@ class AdminTool implements IAdminTool {
 	 * @return \Message
 	 */
 	public function getName() {
-		return wfMessage( 'bs-bluespiceabout-about-bluespice' );
+		return RequestContext::getMain()->msg( 'bs-bluespiceabout-about-bluespice' );
 	}
 
 	/**
