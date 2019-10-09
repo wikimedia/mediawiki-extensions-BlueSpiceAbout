@@ -3,7 +3,8 @@
 		"authors": [
 			"Sujiniku",
 			"2nd-player",
-			"Suyama"
+			"Suyama",
+			"Shirayuki"
 		]
 	},
 	"bs-bluespiceabout-desc": "BlueSpice についての情報。",
@@ -11,5 +12,6 @@
 	"bluespiceabout": "BlueSpice について",
 	"prefs-bluespiceabout": "BlueSpice について",
 	"bs-bluespiceabout-show-menu-links": "「{{int:bs-bluespiceabout-about-bluespice}}」リンクをページ上部とメインメニューに表示する",
-	"right-bluespiceabout-viewspecialpage": "特別ページ [[Special:BlueSpiceAbout]] の利用を許可します。"
+	"action-bluespiceabout-viewspecialpage": "特別ページ「{{int:bs-bluespiceabout-about-bluespice}}」の閲覧",
+	"right-bluespiceabout-viewspecialpage": "特別ページ [[Special:BlueSpiceAbout]] を利用"
 }

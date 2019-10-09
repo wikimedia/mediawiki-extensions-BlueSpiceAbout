@@ -9,7 +9,7 @@
 	"bs-bluespiceabout-about-bluespice": "Про BlueSpice",
 	"bluespiceabout": "Про BlueSpice",
 	"prefs-bluespiceabout": "Про BlueSpice",
-	"bs-bluespiceabout-show-menu-links": "Показати посилання «{{int:bs-bluespiceabout-about-bluespice}}» вгорі та в головному меню",
+	"bs-bluespiceabout-show-menu-links": "Показати посилання «{{int:bs-bluespiceabout-about-bluespice}}» в головному меню",
 	"action-bluespiceabout-viewspecialpage": "перегляд спеціальної сторінки «{{int:bs-bluespiceabout-about-bluespice}}»",
-	"right-bluespiceabout-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceAbout]]."
+	"right-bluespiceabout-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceAbout]]"
 }

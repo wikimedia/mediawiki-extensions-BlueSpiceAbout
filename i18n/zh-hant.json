@@ -10,5 +10,5 @@
 	"prefs-bluespiceabout": "關於 BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "在主選單顯示連結「{{int:bs-bluespiceabout-about-bluespice}}」",
 	"action-bluespiceabout-viewspecialpage": "檢視特殊頁面「{{int:bs-bluespiceabout-about-bluespice}}」",
-	"right-bluespiceabout-viewspecialpage": "授予存取特殊頁面 [[Special:BlueSpiceAbout]] 的權限。"
+	"right-bluespiceabout-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceAbout]] 的權限。"
 }
