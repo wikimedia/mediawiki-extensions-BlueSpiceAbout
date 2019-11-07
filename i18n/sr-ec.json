@@ -10,5 +10,6 @@
 	"bluespiceabout": "О BlueSpice-у",
 	"prefs-bluespiceabout": "О BlueSpice-у",
 	"action-bluespiceabout-viewspecialpage": "Погледај специјалну страницу \"{{int:bs-bluespiceabout-about-bluespice}}\"",
-	"right-bluespiceabout-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceAbout]]"
+	"right-bluespiceabout-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-desc": "Информације о BlueSpice"
 }
