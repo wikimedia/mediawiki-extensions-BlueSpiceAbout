@@ -6,7 +6,7 @@
  * Part of BlueSpice MediaWiki
  *
  * @author     Markus Glaser <glaser@hallowelt.com>
-
+ *
  * @package    BlueSpiceAbout
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
  * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
@@ -37,7 +37,7 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 				break;
 			default :
 				$sUrl = "https://bluespice.com/about-bluespice-iframe/";
-		};
+		}
 
 		$sOutHTML = '<iframe src="' . $sUrl . '" id="bluespiceaboutremote" '
 			. 'name="bluespiceaboutremote" style="width:100%;border:0px;min-height:1200px;"></iframe>';
