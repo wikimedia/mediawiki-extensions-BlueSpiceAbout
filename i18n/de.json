@@ -11,5 +11,6 @@
 	"prefs-bluespiceabout": "Über BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Den Link „{{int:bs-bluespiceabout-about-bluespice}}“ im Hauptmenü anzeigen",
 	"action-bluespiceabout-viewspecialpage": "die Spezialseite „{{int:bs-bluespiceabout-about-bluespice}}“ anzusehen",
-	"right-bluespiceabout-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceAbout]]"
+	"right-bluespiceabout-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Fügt einen Link zur Seite Spezial:BlueSpiceAbout zur Hauptnavigation hinzu. Die verlinkte Seite zeigt Informationen und weiterführende Links zu BlueSpice pro."
 }

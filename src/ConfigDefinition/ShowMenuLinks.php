@@ -23,4 +23,12 @@ class ShowMenuLinks extends \BlueSpice\ConfigDefinition\BooleanSetting {
 	public function getLabelMessageKey() {
 		return 'bs-bluespiceabout-show-menu-links';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-bluespiceabout-pref-showmenulinks-help';
+	}
 }
