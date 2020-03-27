@@ -36,7 +36,7 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 				$sUrl = "https://bluespice.com/de/ueber-bluespice/";
 				break;
 			default :
-				$sUrl = "https://bluespice.com/about-bluespice-iframe/";
+				$sUrl = "https://bluespice.com/about-bluespice/";
 		};
 
 		$sOutHTML = '<iframe src="' . $sUrl . '" id="bluespiceaboutremote" '
