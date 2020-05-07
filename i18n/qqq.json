@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Markus Glaser <glaser@hallowelt.com>",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
-			"Umherirrender",
-			"Patric Wirth"
+			"Markus Glaser <glaser@hallowelt.com>",
+			"Patric Wirth",
+			"Umherirrender"
 		]
 	},
 	"bs-bluespiceabout-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of BlueSpiceAbout extension",
