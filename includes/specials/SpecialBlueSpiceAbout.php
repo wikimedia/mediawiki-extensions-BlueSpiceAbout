@@ -32,10 +32,10 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 
 		$sLang = $this->getLanguage()->getCode();
 		switch ( substr( $sLang, 0, 2 ) ) {
-			case "de" :
+			case "de":
 				$sUrl = "https://bluespice.com/de/ueber-bluespice/";
 				break;
-			default :
+			default:
 				$sUrl = "https://bluespice.com/about-bluespice/";
 		}
 
