@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-bluespiceabout-desc": "Informacije o BlueSpice",
 	"bs-bluespiceabout-about-bluespice": "O BlueSpice-u",
 	"bluespiceabout": "O BlueSpice-u",
