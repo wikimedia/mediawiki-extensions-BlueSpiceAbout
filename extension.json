@@ -15,11 +15,11 @@
 			"Extensions": {
 				"BlueSpiceAbout": {
 					"className": "\\BlueSpice\\About\\Extension",
-					"extPath": "/BlueSpiceAbout",
-					"configDefinitions": {
-						"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
-					}
+					"extPath": "/BlueSpiceAbout"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
 			},
 			"AdminToolRegistry": {
 				"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
