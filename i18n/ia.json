@@ -7,5 +7,9 @@
 	"bs-bluespiceabout-desc": "Information sur BlueSpice",
 	"bs-bluespiceabout-about-bluespice": "A proposito de BlueSpice",
 	"bluespiceabout": "A proposito de BlueSpice",
-	"prefs-bluespiceabout": "A proposito de BlueSpice"
+	"prefs-bluespiceabout": "A proposito de BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Monstrar le ligamine \"{{int:bs-bluespiceabout-about-bluespice}}\" in le menu principal",
+	"action-bluespiceabout-viewspecialpage": "vider le pagina special \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Accesso al pagina special [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Adde un ligamine al pagina Special:BlueSpiceAbout al navigation principal. Le pagina ligate monstra information e ligamines utile sur BlueSpice pro."
 }
