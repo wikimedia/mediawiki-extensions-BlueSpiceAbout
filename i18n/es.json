@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agent",
 			"Fitoschido",
 			"Macofe"
 		]
@@ -11,5 +12,6 @@
 	"prefs-bluespiceabout": "Acerca de BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Mostrar el enlace «{{int:bs-bluespiceabout-about-bluespice}}» en el menú principal",
 	"action-bluespiceabout-viewspecialpage": "ver la página especial «{{int:bs-bluespiceabout-about-bluespice}}»",
-	"right-bluespiceabout-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceAbout]]"
+	"right-bluespiceabout-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Agrega un enlace a la página Special:BlueSpiceAbout a la navegación principal. La página vinculada muestra información y enlaces útiles sobre BlueSpice pro."
 }
