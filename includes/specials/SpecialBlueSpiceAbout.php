@@ -39,8 +39,11 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 				$sUrl = "https://bluespice.com/about-bluespice/";
 		}
 
-		$sOutHTML = '<iframe src="' . $sUrl . '" id="bluespiceaboutremote" '
-			. 'name="bluespiceaboutremote" style="width:100%;border:0px;min-height:1200px;"></iframe>';
+		$title = Message::newFromKey( 'bs-bluespiceabout-desc' );
+
+		$sOutHTML = Html::element( 'iframe', [ 'id' => 'bluespiceaboutremote',
+			'name' => 'bluespiceaboutremote', 'src' => $sUrl, 'title' => $title,
+			'style' => 'width:100%;border:0px;min-height:1200px;' ] );
 
 		$oOutputPage = $this->getOutput();
 
