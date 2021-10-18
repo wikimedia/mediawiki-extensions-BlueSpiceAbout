@@ -99,14 +99,14 @@
 		"remoteExtPath": "BlueSpiceAbout/resources"
 	},
 	"HookHandlers": {
-		"main": {
-			"class": "\\BlueSpice\\About\\HookHandler\\Main"
+		"common-user-interface": {
+			"class": "\\BlueSpice\\About\\HookHandler\\CommonUserInterface"
 		}
 	},
 	"Hooks": {
 		"BeforePageDisplay": "\\BlueSpice\\About\\Hook\\BeforePageDisplay\\AddModules::callback",
 		"SkinBuildSidebar": "\\BlueSpice\\About\\Hook\\SkinBuildSidebar\\AddNavLink::callback",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "main"
+		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
 	},
 
 	"load_composer_autoloader": true,
