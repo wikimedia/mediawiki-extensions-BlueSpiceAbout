@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jeleniccz",
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
 	"bs-bluespiceabout-desc": "Informatie over BlueSpice.",
@@ -11,5 +12,6 @@
 	"prefs-bluespiceabout": "Over BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Toon de koppeling \"{{int:bs-bluespiceabout-over-bluespice}}\" in het hoofdmenu",
 	"action-bluespiceabout-viewspecialpage": "bekijk de speciale pagina \"{{int:bs-bluespiceabout-about-bluespice}}\"",
-	"right-bluespiceabout-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceAbout]]"
+	"right-bluespiceabout-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Voegt een koppeling naar de pagina Special:BlueSpiceAbout toe aan de hoofdnavigatie. De gekoppelde pagina toont informatie en handige links over BlueSpice pro."
 }
