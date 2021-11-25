@@ -2,7 +2,7 @@
 
 namespace BlueSpice\About\HookHandler;
 
-use BlueSpice\About\GlobalActionsTool;
+use BlueSpice\About\GlobalActionsManager;
 use MWStake\MediaWiki\Component\CommonUserInterface\Hook\MWStakeCommonUIRegisterSkinSlotComponents;
 
 class CommonUserInterface implements MWStakeCommonUIRegisterSkinSlotComponents {
@@ -12,11 +12,11 @@ class CommonUserInterface implements MWStakeCommonUIRegisterSkinSlotComponents {
 	 */
 	public function onMWStakeCommonUIRegisterSkinSlotComponents( $registry ): void {
 		$registry->register(
-			'GlobalActionsTools',
+			'GlobalActionsManager',
 			[
 				'special-bluespice-about' => [
 					'factory' => static function () {
-						return new GlobalActionsTool();
+						return new GlobalActionsManager();
 					}
 				]
 			]

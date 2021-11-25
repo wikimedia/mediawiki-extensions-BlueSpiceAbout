@@ -6,7 +6,7 @@ use Message;
 use MWStake\MediaWiki\Component\CommonUserInterface\Component\RestrictedTextLink;
 use SpecialPage;
 
-class GlobalActionsTool extends RestrictedTextLink {
+class GlobalActionsManager extends RestrictedTextLink {
 
 	/**
 	 *
@@ -19,7 +19,7 @@ class GlobalActionsTool extends RestrictedTextLink {
 	 *
 	 * @return string
 	 */
-	public function getId() : string {
+	public function getId(): string {
 		return 'ga-bs-about';
 	}
 
@@ -27,7 +27,7 @@ class GlobalActionsTool extends RestrictedTextLink {
 	 *
 	 * @return string[]
 	 */
-	public function getPermissions() : array {
+	public function getPermissions(): array {
 		$permissions = [
 			'bluespiceabout-viewspecialpage'
 		];
@@ -37,7 +37,7 @@ class GlobalActionsTool extends RestrictedTextLink {
 	/**
 	 * @return string
 	 */
-	public function getHref() : string {
+	public function getHref(): string {
 		$specialPage = SpecialPage::getTitleFor( 'BlueSpiceAbout' );
 		return $specialPage->getLocalURL();
 	}
@@ -45,21 +45,21 @@ class GlobalActionsTool extends RestrictedTextLink {
 	/**
 	 * @return Message
 	 */
-	public function getText() : Message {
+	public function getText(): Message {
 		return Message::newFromKey( 'bs-bluespiceabout-about-bluespice' );
 	}
 
 	/**
 	 * @return Message
 	 */
-	public function getTitle() : Message {
+	public function getTitle(): Message {
 		return Message::newFromKey( 'bs-bluespiceabout-about-bluespice-desc' );
 	}
 
 	/**
 	 * @return Message
 	 */
-	public function getAriaLabel() : Message {
+	public function getAriaLabel(): Message {
 		return Message::newFromKey( 'bs-bluespiceabout-about-bluespice' );
 	}
 }
