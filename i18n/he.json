@@ -5,14 +5,13 @@
 			"Guycn2",
 			"MojoMann",
 			"דגש",
-			"דגש חזק"
+			"דגש חזק",
+			"Ex-Diktator"
 		]
 	},
 	"bs-bluespiceabout-desc": "מידע אודות BlueSpice",
 	"bs-bluespiceabout-about-bluespice": "אודות BlueSpice",
 	"bluespiceabout": "אודות BlueSpice",
-	"prefs-bluespiceabout": "אודות BlueSpice",
-	"bs-bluespiceabout-show-menu-links": "הצג קישור \"{{int:bs-bluespiceabout-about-bluespice}}\" בתפריט הראשי",
 	"action-bluespiceabout-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-bluespiceabout-about-bluespice}}\"",
-	"bs-bluespiceabout-pref-showmenulinks-help": "מוסיף לדף הניווט הראשי קישור לדף [[מיוחד: BlueSpice About]]. הדף המקושר מציג מידע וקישורים מועילים אודות BlueSpice pro."
+	"right-bluespiceabout-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceAbout]]"
 }
