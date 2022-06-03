@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ex-Diktator",
 			"Ghsuvr",
 			"Guycn2",
 			"MojoMann",
@@ -14,5 +15,6 @@
 	"prefs-bluespiceabout": "אודות BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "הצג קישור \"{{int:bs-bluespiceabout-about-bluespice}}\" בתפריט הראשי",
 	"action-bluespiceabout-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-bluespiceabout-about-bluespice}}\"",
-	"bs-bluespiceabout-pref-showmenulinks-help": "מוסיף לדף הניווט הראשי קישור לדף [[מיוחד: BlueSpice About]]. הדף המקושר מציג מידע וקישורים מועילים אודות BlueSpice pro."
+	"bs-bluespiceabout-pref-showmenulinks-help": "מוסיף לדף הניווט הראשי קישור לדף [[מיוחד: BlueSpice About]]. הדף המקושר מציג מידע וקישורים מועילים אודות BlueSpice pro.",
+	"right-bluespiceabout-viewspecialpage": "גישה לדף המיוחד [[Special:BlueSpiceAbout]]"
 }
