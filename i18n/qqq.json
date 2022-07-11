@@ -11,9 +11,6 @@
 	"bs-bluespiceabout-about-bluespice": "Label for menu item in various menus",
 	"bs-bluespiceabout-about-bluespice-page": "{{ignored}}",
 	"bluespiceabout": "Label for special page in list of special pages",
-	"prefs-bluespiceabout": "Label for special page in list of special pages",
-	"bs-bluespiceabout-show-menu-links": "Description for menu links in main menu",
 	"action-bluespiceabout-viewspecialpage": "Placeholder to describe that view of special page \"{{int:bs-bluespiceabout-about-bluespice}}\" is restricted for the current user\n{{doc-action|bluespiceabout-viewspecialpage}}",
-	"right-bluespiceabout-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceAbout]].\n{{doc-right|bluespiceabout-viewspecialpage}}",
-	"bs-bluespiceabout-pref-showmenulinks-help": "Help message for menu links"
+	"right-bluespiceabout-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceAbout]].\n{{doc-right|bluespiceabout-viewspecialpage}}"
 }
