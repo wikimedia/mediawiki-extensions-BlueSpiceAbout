@@ -33,10 +33,10 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 		$sLang = $this->getLanguage()->getCode();
 		switch ( substr( $sLang, 0, 2 ) ) {
 			case "de":
-				$sUrl = "https://bluespice.com/de/ueber-bluespice/";
+				$sUrl = "https://de.bluespice.com/about-bluespice-iframe/";
 				break;
 			default:
-				$sUrl = "https://bluespice.com/about-bluespice/";
+				$sUrl = "https://bluespice.com/about-bluespice-iframe/";
 		}
 
 		$title = Message::newFromKey( 'bs-bluespiceabout-desc' );
