@@ -53,7 +53,7 @@ class GlobalActionsManager extends RestrictedTextLink {
 	 * @return Message
 	 */
 	public function getTitle(): Message {
-		return Message::newFromKey( 'bs-bluespiceabout-about-bluespice-desc' );
+		return Message::newFromKey( 'bs-bluespiceabout-desc' );
 	}
 
 	/**
