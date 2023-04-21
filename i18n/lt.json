@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
+			"Nokeoo",
 			"Tomasdd"
 		]
 	},
@@ -10,5 +11,6 @@
 	"bluespiceabout": "Apie BlueSpice",
 	"prefs-bluespiceabout": "Apie BlueSpice",
 	"bs-bluespiceabout-show-menu-links": "Rodyti nuorodą „{{int:bs-bluespiceabout-about-bluespice}}“ pagrindinio meniu viršuje",
-	"action-bluespiceabout-viewspecialpage": "žiūrėti specialų puslapį „{{int:bs-bluespiceabout-about-bluespice}}“"
+	"action-bluespiceabout-viewspecialpage": "žiūrėti specialų puslapį „{{int:bs-bluespiceabout-about-bluespice}}“",
+	"right-bluespiceabout-viewspecialpage": "Prieiga prie specialaus puslapio [[Special:BlueSpiceAbout]]"
 }
