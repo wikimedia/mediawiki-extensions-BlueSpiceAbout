@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Krisztina",
 			"Tacsipacsi",
 			"Wolf Rex"
 		]
@@ -9,5 +10,7 @@
 	"bs-bluespiceabout-about-bluespice": "A BlueSpice-ról",
 	"bluespiceabout": "A BlueSpice-ról",
 	"prefs-bluespiceabout": "A BlueSpice-ról",
-	"bs-bluespiceabout-show-menu-links": "„{{int:bs-bluespiceabout-about-bluespice}}” link mutatása a főmenüben"
+	"bs-bluespiceabout-show-menu-links": "„{{int:bs-bluespiceabout-about-bluespice}}” link mutatása a főmenüben",
+	"action-bluespiceabout-viewspecialpage": "tekintsd meg a \"{{int:bs-bluespiceabout-about-bluespice}}\" speciális oldalt",
+	"right-bluespiceabout-viewspecialpage": "Hozzáférés a speciális oldalhoz [[Special:BlueSpiceAbout]]"
 }
