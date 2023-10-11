@@ -78,15 +78,6 @@
 	"AvailableRights": [
 		"bluespiceabout-viewspecialpage"
 	],
-	"HookHandlers": {
-		"common-user-interface": {
-			"class": "\\BlueSpice\\About\\HookHandler\\CommonUserInterface"
-		}
-	},
-	"Hooks": {
-		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
-	},
-
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
