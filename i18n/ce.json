@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"\u0423\u043c\u0430\u0440"
+			"Умар"
 		]
 	},
-	"bs-bluespiceabout-desc": "BlueSpice \u043b\u0430\u044c\u0446\u043d\u0430 \u0445\u0430\u0430\u043c.",
-	"action-bluespiceabout-viewspecialpage": "\u0431\u0435\u043b\u0445\u0430\u043d \u0430\u0433\u04c0\u043e\u043d\u0435 \u0445\u044c\u0430\u0436\u0430\u0440 \u00ab{{int:bs-bluespiceabout-about-bluespice}}\u00bb",
-	"bs-bluespiceabout-about-bluespice": "BlueSpice \u043b\u0430\u044c\u0446\u043d\u0430",
-	"bluespiceabout": "BlueSpice \u043b\u0430\u044c\u0446\u043d\u0430",
-	"right-bluespiceabout-viewspecialpage": "\u0431\u0435\u043b\u0445\u0430\u043d [[Special:BlueSpiceAbout]] \u0430\u0433\u04c0\u043e\u043d\u0430\u043d \u0442\u04c0\u0435\u043a\u0445\u0430\u0447\u0430\u0440"
+	"bs-bluespiceabout-desc": "BlueSpice лаьцна хаам.",
+	"action-bluespiceabout-viewspecialpage": "белхан агӀоне хьажар «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"bs-bluespiceabout-about-bluespice": "BlueSpice лаьцна",
+	"bluespiceabout": "BlueSpice лаьцна",
+	"right-bluespiceabout-viewspecialpage": "белхан [[Special:BlueSpiceAbout]] агӀонан тӀекхачар"
 }
