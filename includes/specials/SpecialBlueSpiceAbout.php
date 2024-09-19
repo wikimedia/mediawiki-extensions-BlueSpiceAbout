@@ -33,22 +33,35 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 		$sLang = $this->getLanguage()->getCode();
 		switch ( substr( $sLang, 0, 2 ) ) {
 			case "de":
-				$sUrl = "https://bluespice.com/de/ueber-bluespice/";
+				$sLangKey = "DE";
 				break;
 			default:
-				$sUrl = "https://bluespice.com/about-bluespice/";
+				$sLangKey = "EN";
 		}
 
-		$title = Message::newFromKey( 'bs-bluespiceabout-desc' );
-
-		$sOutHTML = Html::element( 'iframe', [ 'id' => 'bluespiceaboutremote',
-			'name' => 'bluespiceaboutremote', 'src' => $sUrl, 'title' => $title,
-			'style' => 'width:100%;border:0px;min-height:1200px;' ] );
+		$templateParser = new TemplateParser( __DIR__ . '/../templates' );
+		global $wgExtensionAssetsPath;
 
 		$oOutputPage = $this->getOutput();
-
-		$oOutputPage->addHTML( $sOutHTML );
-
+		$oOutputPage->addHTML( 
+			$templateParser->processTemplate(
+				'AboutBlueSpice' . $sLangKey,
+				[
+					'srcMainPic' => $wgExtensionAssetsPath . 
+						'/BlueSpiceAbout/resources/images/' .
+						'BlueSpice_MediaWiki_Screen_' . $sLangKey . '.png',
+					'srcFigurePic' => $wgExtensionAssetsPath . 
+						'/BlueSpiceAbout/resources/images/' .
+						'BlueSpice_Frank_Florian.png',
+					'srcWebinarPic' => $wgExtensionAssetsPath . 
+						'/BlueSpiceAbout/resources/images/' .
+						'Webinar_button.png',
+					'srcHelpdeskPic' => $wgExtensionAssetsPath . 
+						'/BlueSpiceAbout/resources/images/' .
+						'Helpdesk_button_' . $sLangKey . '.png',
+				]
+			)
+		);
 		return true;
 	}
 
