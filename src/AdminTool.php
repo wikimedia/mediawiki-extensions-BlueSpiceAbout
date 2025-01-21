@@ -3,7 +3,7 @@
 namespace BlueSpice\About;
 
 use BlueSpice\IAdminTool;
-use RequestContext;
+use MediaWiki\Context\RequestContext;
 
 class AdminTool implements IAdminTool {
 
