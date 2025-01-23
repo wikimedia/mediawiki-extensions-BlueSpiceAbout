@@ -4,6 +4,7 @@ namespace BlueSpice\About;
 
 use BlueSpice\IAdminTool;
 use MediaWiki\Context\RequestContext;
+use MediaWiki\Message\Message;
 
 class AdminTool implements IAdminTool {
 
@@ -18,7 +19,7 @@ class AdminTool implements IAdminTool {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getDescription() {
 		return RequestContext::getMain()->msg( 'bs-bluespiceabout-desc' );
@@ -26,7 +27,7 @@ class AdminTool implements IAdminTool {
 
 	/**
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getName() {
 		return RequestContext::getMain()->msg( 'bs-bluespiceabout-about-bluespice' );
