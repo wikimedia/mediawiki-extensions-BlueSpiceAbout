@@ -5,6 +5,7 @@ namespace BlueSpice\About;
 use BlueSpice\IAdminTool;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Message\Message;
+use MediaWiki\SpecialPage\SpecialPage;
 
 class AdminTool implements IAdminTool {
 
@@ -13,7 +14,7 @@ class AdminTool implements IAdminTool {
 	 * @return string
 	 */
 	public function getURL() {
-		$tool = \SpecialPage::getTitleFor( 'BlueSpiceAbout' );
+		$tool = SpecialPage::getTitleFor( 'BlueSpiceAbout' );
 		return $tool->getLocalURL();
 	}
 
