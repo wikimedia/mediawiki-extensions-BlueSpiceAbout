@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Html\TemplateParser;
+
 /**
  * Renders the BlueSpice About special page.
  *
