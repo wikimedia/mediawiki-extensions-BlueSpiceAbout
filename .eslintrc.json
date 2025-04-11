@@ -4,5 +4,13 @@
 		"wikimedia/client-es6",
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
-	]
+	],
+	"globals": {
+		"bs": "readonly",
+		"ext": "readonly",
+		"jQuery": "readonly"
+	},
+	"rules": {
+		"no-jquery/no-global-selector": "off"
+	}
 }
