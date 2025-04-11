@@ -78,6 +78,39 @@
 	"AvailableRights": [
 		"bluespiceabout-viewspecialpage"
 	],
+	"ResourceModules": {
+		"ext.bluespice.about.banner": {
+			"scripts": [
+				"ext.bluespice.about.banner.js",
+				"ui/Banner.js"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"oojs-ui"
+			]
+		},
+		"ext.bluespice.about.banner.styles": {
+			"styles": [
+				"ext.bluespice.about.banner.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceAbout/resources"
+	},
+	"Hooks": {
+		"GetPreferences": "userPreference",
+		"SkinAfterContent": "addBanner"
+	},
+	"HookHandlers": {
+		"addBanner": {
+			"class": "BlueSpice\\About\\HookHandlers\\SkinAfterContent\\AddBanner"
+		},
+		"userPreference": {
+			"class": "BlueSpice\\About\\HookHandlers\\GetPreferences\\UserPreference"
+		}
+	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
