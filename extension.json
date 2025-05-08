@@ -79,19 +79,34 @@
 		"bluespiceabout-viewspecialpage"
 	],
 	"ResourceModules": {
-		"ext.bluespice.about.banner": {
+		"ext.bluespice.about.banner.newsletter": {
 			"scripts": [
-				"ext.bluespice.about.banner.js",
-				"ui/Banner.js"
+				"ext.bluespice.about.banner.newsletter.js",
+				"ui/BannerNewsletter.js"
 			],
 			"dependencies": [
 				"ext.bluespice",
 				"oojs-ui"
 			]
 		},
-		"ext.bluespice.about.banner.styles": {
+		"ext.bluespice.about.banner.newsletter.styles": {
 			"styles": [
-				"ext.bluespice.about.banner.less"
+				"ext.bluespice.about.banner.newsletter.less"
+			]
+		},
+		"ext.bluespice.about.banner.rating": {
+			"scripts": [
+				"ext.bluespice.about.banner.rating.js",
+				"ui/BannerRating.js"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"oojs-ui"
+			]
+		},
+		"ext.bluespice.about.banner.rating.styles": {
+			"styles": [
+				"ext.bluespice.about.banner.rating.less"
 			]
 		}
 	},
@@ -105,7 +120,7 @@
 	},
 	"HookHandlers": {
 		"addBanner": {
-			"class": "BlueSpice\\About\\HookHandlers\\SkinAfterContent\\AddBanner"
+			"class": "BlueSpice\\About\\HookHandlers\\SkinAfterContent\\AddBanners"
 		},
 		"userPreference": {
 			"class": "BlueSpice\\About\\HookHandlers\\GetPreferences\\UserPreference"
