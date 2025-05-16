@@ -43,6 +43,7 @@ ext.bluespice.about.ui.BannerRating = function () {
 		.on( 'click', () => {
 			new mw.Api().saveOption( USER_PREFERENCE_DONTSHOWUNTIL, '9999999999' );
 			$( '#bs-about-banner-rating-container' ).remove();
+			this.emit( 'removedRating' );
 		} );
 
 	this.$element.append(
