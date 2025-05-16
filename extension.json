@@ -116,11 +116,11 @@
 	},
 	"Hooks": {
 		"GetPreferences": "userPreference",
-		"SkinAfterContent": "addBanner"
+		"BeforePageDisplay": "addBanner"
 	},
 	"HookHandlers": {
 		"addBanner": {
-			"class": "BlueSpice\\About\\HookHandlers\\SkinAfterContent\\AddBanners"
+			"class": "BlueSpice\\About\\HookHandlers\\BeforePageDisplay\\AddBanners"
 		},
 		"userPreference": {
 			"class": "BlueSpice\\About\\HookHandlers\\GetPreferences\\UserPreference"
