@@ -1,14 +1,13 @@
 <?php
 
-namespace BlueSpice\About\HookHandlers\SkinAfterContent;
+namespace BlueSpice\About\HookHandlers\BeforePageDisplay;
 
-use MediaWiki\Hook\SkinAfterContentHook;
-use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\User\User;
 
-class AddBanners implements SkinAfterContentHook {
+class AddBanners implements BeforePageDisplayHook {
 
 	private const USER_PREFERENCE_NEWSLETTER_DONTSHOW = 'bs-about-banner-newsletter-dontshow';
 	private const USER_PREFERENCE_RATING_DONTSHOWUNTIL = 'bs-about-banner-rating-dontshowuntil';
@@ -61,7 +60,7 @@ class AddBanners implements SkinAfterContentHook {
 	/**
 	 * @inheritDoc
 	 */
-	public function onSkinAfterContent( &$data, $skin ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		if ( $this->getEdition() !== 'free' ) {
 			return;
 		}
@@ -84,22 +83,19 @@ class AddBanners implements SkinAfterContentHook {
 			return;
 		}
 
-		$output = $skin->getOutput();
 		$userLang = $this->getSupportedLanguage( $user );
 		$isSysop = in_array( 'sysop', $services->getUserGroupManager()->getUserGroups( $user ) );
 
 		if ( $isSysop && !$hideNewsletter ) {
-			$output->addJsConfigVars( 'bsAboutBannerNewsletterMessages', self::NEWSLETTER_MESSAGES[ $userLang ] );
-			$output->addModules( [ 'ext.bluespice.about.banner.newsletter' ] );
-			$output->addModuleStyles( [ 'ext.bluespice.about.banner.newsletter.styles' ] );
-			$data .= Html::rawElement( 'div', [ 'id' => 'bs-about-banner-newsletter-container' ] );
+			$out->addJsConfigVars( 'bsAboutBannerNewsletterMessages', self::NEWSLETTER_MESSAGES[ $userLang ] );
+			$out->addModules( [ 'ext.bluespice.about.banner.newsletter' ] );
+			$out->addModuleStyles( [ 'ext.bluespice.about.banner.newsletter.styles' ] );
 		}
 
 		if ( !$hideRating ) {
-			$output->addJsConfigVars( 'bsAboutBannerRatingMessages', self::RATING_MESSAGES[ $userLang ] );
-			$output->addModules( [ 'ext.bluespice.about.banner.rating' ] );
-			$output->addModuleStyles( [ 'ext.bluespice.about.banner.rating.styles' ] );
-			$data .= Html::rawElement( 'div', [ 'id' => 'bs-about-banner-rating-container' ] );
+			$out->addJsConfigVars( 'bsAboutBannerRatingMessages', self::RATING_MESSAGES[ $userLang ] );
+			$out->addModules( [ 'ext.bluespice.about.banner.rating' ] );
+			$out->addModuleStyles( [ 'ext.bluespice.about.banner.rating.styles' ] );
 		}
 	}
 
