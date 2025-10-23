@@ -18,9 +18,6 @@
 					"extPath": "/BlueSpiceAbout"
 				}
 			},
-			"AdminToolRegistry": {
-				"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
-			},
 			"PermissionRegistry": {
 				"bluespiceabout-viewspecialpage": {
 					"type": "global",
