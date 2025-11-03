@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
+			"Mansil alfalb",
 			"Vitorvicentevalente"
 		]
 	},
-	"bs-bluespiceabout-desc": "Informação sobre BlueSpice.",
-	"bs-bluespiceabout-about-bluespice": "Sobre BlueSpice",
+	"bs-bluespiceabout-desc": "Informação sobre BlueSpice",
 	"bluespiceabout": "Sobre BlueSpice",
 	"action-bluespiceabout-viewspecialpage": "ver a página especial \"{{int:bs-bluespiceabout-sobre-bluespice}}\"",
 	"right-bluespiceabout-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceAbout]]"
