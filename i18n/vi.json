@@ -5,6 +5,7 @@
 		]
 	},
 	"bs-bluespiceabout-desc": "Thông tin về BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "Giới thiệu về BlueSpice",
 	"bluespiceabout": "Giới thiệu về BlueSpice",
 	"action-bluespiceabout-viewspecialpage": "xem trang \"{{int:bs-bluespiceabout-about-bluespice}}\"",
 	"right-bluespiceabout-viewspecialpage": "Truy cập vào trang đặc biệt [[Special:BlueSpiceAbout]]"
