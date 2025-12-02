@@ -7,8 +7,8 @@
 		]
 	},
 	"bs-bluespiceabout-desc": "Información acerca de BlueSpice",
-	"bs-bluespiceabout-about-bluespice": "Acerca de BlueSpice",
 	"bluespiceabout": "Acerca de BlueSpice",
 	"action-bluespiceabout-viewspecialpage": "ver la página especial «{{int:bs-bluespiceabout-about-bluespice}}»",
-	"right-bluespiceabout-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceAbout]]"
+	"right-bluespiceabout-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-about-bluespice": "Acerca de BlueSpice"
 }
