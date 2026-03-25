@@ -8,8 +8,8 @@
 		]
 	},
 	"bs-bluespiceabout-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of BlueSpiceAbout extension",
-	"bs-bluespiceabout-about-bluespice": "Label for menu item in various menus",
-	"bs-bluespiceabout-about-bluespice-page": "{{ignored}}",
+	"bs-bluespiceabout-about-bluespice": "Label for a link in the left navigation. Not used in the extension itself, but by many installations in the wikitext content",
+	"bs-bluespiceabout-about-bluespice-page": "Target for a link in the left navigation. Not used in the extension itself, but by many installations in the wikitext content",
 	"bluespiceabout": "Label for special page in list of special pages",
 	"prefs-bluespiceabout": "Label for special page in list of special pages",
 	"bs-bluespiceabout-show-menu-links": "Description for menu links in main menu",
