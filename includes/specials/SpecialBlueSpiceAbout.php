@@ -21,7 +21,12 @@ class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
 	 * Constructor of SpecialBlueSpiceAbout class
 	 */
 	public function __construct() {
-		parent::__construct( 'BlueSpiceAbout', 'bluespiceabout-viewspecialpage' );
+		parent::__construct( 'BlueSpiceAbout' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'bluespiceabout-viewspecialpage';
 	}
 
 	/**
