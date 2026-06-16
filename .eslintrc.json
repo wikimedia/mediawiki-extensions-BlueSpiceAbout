@@ -1,16 +1,20 @@
 {
 	"root": true,
 	"extends": [
-		"wikimedia/client-es6",
+		"wikimedia/client",
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
 	"globals": {
 		"bs": "readonly",
 		"ext": "readonly",
 		"jQuery": "readonly"
 	},
 	"rules": {
+		"mediawiki/no-unlabeled-buttonwidget": "off",
 		"no-jquery/no-global-selector": "off"
 	}
 }
