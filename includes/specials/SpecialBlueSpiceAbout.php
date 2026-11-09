@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Html\TemplateParser;
+use MediaWiki\MainConfigNames;
 use MediaWiki\SpecialPage\SpecialPage;
 
 class SpecialBlueSpiceAbout extends SpecialPage {
@@ -35,23 +36,23 @@ class SpecialBlueSpiceAbout extends SpecialPage {
 		}
 
 		$templateParser = new TemplateParser( __DIR__ . '/../templates' );
-		global $wgExtensionAssetsPath;
+		$extensionAssetsPath = $this->getConfig()->get( MainConfigNames::ExtensionAssetsPath );
 
 		$oOutputPage = $this->getOutput();
 		$oOutputPage->addHTML(
 			$templateParser->processTemplate(
 				'AboutBlueSpice' . $sLangKey,
 				[
-					'srcMainPic' => $wgExtensionAssetsPath .
+					'srcMainPic' => $extensionAssetsPath .
 						'/BlueSpiceAbout/resources/images/' .
 						'BlueSpice_MediaWiki_Screen_' . $sLangKey . '.png',
-					'srcFigurePic' => $wgExtensionAssetsPath .
+					'srcFigurePic' => $extensionAssetsPath .
 						'/BlueSpiceAbout/resources/images/' .
 						'BlueSpice_Frank_Florian.png',
-					'srcWebinarPic' => $wgExtensionAssetsPath .
+					'srcWebinarPic' => $extensionAssetsPath .
 						'/BlueSpiceAbout/resources/images/' .
 						'Webinar_button.png',
-					'srcHelpdeskPic' => $wgExtensionAssetsPath .
+					'srcHelpdeskPic' => $extensionAssetsPath .
 						'/BlueSpiceAbout/resources/images/' .
 						'Helpdesk_button_' . $sLangKey . '.png',
 				]
