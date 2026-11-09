@@ -1,8 +1,9 @@
 <?php
 
 use MediaWiki\Html\TemplateParser;
+use MediaWiki\SpecialPage\SpecialPage;
 
-class SpecialBlueSpiceAbout extends \BlueSpice\SpecialPage {
+class SpecialBlueSpiceAbout extends SpecialPage {
 
 	/**
 	 * Constructor of SpecialBlueSpiceAbout class
